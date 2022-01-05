@@ -1,0 +1,29 @@
+.main_block{
+    width: 100%;
+    border: 2px solid red;
+}
+.upper_block{
+    width: 95vw;
+    border: 2px solid blue;
+    height: 90vh;
+}
+.nav_options{
+    float: left;
+    width: 16%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 242);
+}
+.screen_block{
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: 2px solid rgb(229, 255, 0);
+}
+#iframe_screen{
+    width: 100%;
+    height: 95%;
+}
+.lower_block{
+    width:95vw;
+    border:2px solid green;
+}
