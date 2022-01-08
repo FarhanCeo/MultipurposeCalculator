@@ -11,7 +11,7 @@
     float: left;
     width: 16%;
     height: 100%;
-    font-size: 3.5vw;
+    font-size: 3vw;
     border: 2px solid rgb(255, 0, 242);
 }
 .screen_block{
@@ -34,7 +34,8 @@
     height: 13vw;
     font-size: 5vw;
     border: none;
-
+    background-color: white;
+    font-family: cursive;
 }
 .lower_block{
     width:95vw;
@@ -45,8 +46,16 @@
     
 }
 .input:hover{
-    background-color: rgb(47, 102, 255);
+    background-color: rgb(47, 120, 255);
 }
 .click:hover{
-    background-color: rgb(47, 102, 255);
+    background-color: rgb(47, 120, 255);
+}
+.inputsci, .clicksci{
+    width: 13vw;
+    height: 13vw;
+    font-size: 5vw;
+    border: none;
+    background-color: white;
+    font-family: cursive;
 }
