@@ -52,9 +52,9 @@
     background-color: rgb(47, 120, 255);
 }
 .inputsci, .clicksci{
-    width: 13vw;
-    height: 13vw;
-    font-size: 5vw;
+    width: 17vw;
+    height: 16vw;
+    font-size: 6vw;
     border: none;
     background-color: white;
     font-family: cursive;
