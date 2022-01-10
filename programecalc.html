@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maincss.css">
+    <script src="mainjs.js"></script>
+    <title>Programmer</title>
+</head>
+<body>
+    <div id="simple_body">
+        <div id="screen">
+            <input type="text" id="screen1" size:100; name="screen"; font-size:100px;>
+        </div>
+        <div id="buttonsScientific">
+            <button type="button"   value="C" id="clear" class="click" onclick="document.getElementById('screen1').value=''"   >C</button>
+            <button type="button" value="=" id="clearback" class="click" onclick="c()"  >	&#9003;</button>
+            <input type="button" class="input" value=")" id="curveb" onclick="document.getElementById('screen1').value+=')'" >
+            <input type='button' class="input"  value="(" id="curvef" onclick="document.getElementById('screen1').value+='('"  >
+
+
+            <input type="button" class="input"  value="7" id="seven" class="click" onclick="show7()"  >
+            <input type="button" class="input"  value="8" id="eight" class="click" onclick="show8()"   >
+            <input type="button" class="input"  value="9" id="nine" class="click" onclick="show9()"   >     
+            <input type="button" class="input"  value="*" id="mul" class="click" onclick="showmul()"   >
+            
+            
+            <input type="button" class="input"  value="4" id="four" class="click" onclick="show4()"   >
+            <input type="button" class="input"  value="5" id="five" class="click" onclick="show5()"   >
+            <input type="button" class="input"  value="6" id="six" class="click" onclick="show6()" >
+            <input type = 'button' class="input"  value="÷" id="div" class="click" onclick="showdiv()"  >
+
+
+            <input type="button" class="input"  value="1" id="one" class="click" onclick="show1()" > 
+            <input type="button"class="input"  value="2" id="two" class="click" onclick="show2()"  > 
+            <input type="button" class="input"  value="3" id="three"  class="click" onclick="show3()"   > 
+            <input type="button" class="input"  value="-" id="sub" class="click" onclick="showsub()"   >
+
+
+            <input type="button" class="input"  value="+" id="plus" class="click" onclick="showplus()"   >       
+            <input type="button" class="input"  value="." id="dot" class="click" onclick="dot()"  > 
+            <input type="button" class="input"  value="0" id="zero" class="click" onclick="show0()"   >
+            <button type="button" value="=" id="calc" class="click" onclick="calc()" >=</button>
+            <input type="button" class="input"  value="&#177" id="changesign" class="click" onclick="changeSign()"   >    
+
+
+           
+            <div id="num" style="font-size: 2vw;border: 1px solid black;">       
+                
+                <button  type="button" value="binary" id="binary" class="click" onclick="showbinary()"   >Binary</button>
+                <input type="text" id="screen2" size:100; name="screen"; font-size:100px; placeholder="BIN">  
+
+                <button  value="hex" id="hex" class="click" onclick="showhex()" >Hex</button>
+                <input type="text" id="screen3" size:100; name="screen"; font-size:100px; placeholder="HEX">
+
+                <button  type="button" value="oct" id="oct" class="click" onclick="showoct()"  >Oct</button>
+                <input type="text" id="screen4" size:100; name="screen"; font-size:100px; placeholder="OCT">
+
+                 
+            </div>
+           
+        </div>
+        
+        
+       
+    </div>
+    <input class="input" style="height: 45px;width:75px ;font-size: large;" type="button" value="AND" id="sin" onclick="showand()"  >
+    <input  class="input" style="height: 45px; width:75px ;font-size: large;" type="button" value="OR" id="cos" onclick="showor()"  >
+    <input class="input" style="height: 45px; width:75px ;font-size: large;"  type="button" value="NOT" id="tan" onclick="shownot()"  >
+    <input class="input" style="height: 45px; width:75px ;font-size: large;"  type="button" value="NAND" id="cosec" onclick="shownand()"  >
+    <input class="input" style="height: 45px; width:75px ;font-size: large;"  type="button" value="NOR" id="sec" onclick="shownor()" >
+    <input class="input" style="height: 45px; width:75px ;font-size: large;"  type="button" value="XOR" id="cot" onclick="showxor()"  >
+   
+    <div id="simple_right"><span style="font-size:xx-large;font-family:cursive;">Hey!</span><br> It is a<b> Programmer Calculator</b><br>Hope you will Enjoy this</div>
+ 
+</body>
+</html>
