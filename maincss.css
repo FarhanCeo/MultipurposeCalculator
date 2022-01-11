@@ -20,7 +20,7 @@
     border-radius: 25%;
 }*/
 a{
-    margin-top: 10px;
+   /*margin-top: 10px;*/
     color: indigo;
     text-decoration: none;
 }
@@ -54,6 +54,7 @@ li{float: right;
     border: none;
     background-color:white; 
     font-family: cursive;
+    
 }
 .lower_block{
     width:95vw;
@@ -78,7 +79,7 @@ li{float: right;
 .inputsci, .clicksci{
     width: 17vw;
     height: 16vw;
-    font-size: 6vw;
+    font-size: 8vw;
     border: none;
     background-color:white; 
     font-family: cursive;
@@ -87,3 +88,4 @@ li{float: right;
 #hex, #oct, #binary{
     font-size: 6vw;
 }
+
