@@ -10,7 +10,6 @@
     border: 1px solid blue;
     height: 100vh;
     display: flex;
-    background-color: ;
 }
 .nav_options{
     width: 22%;
@@ -22,16 +21,12 @@
 }
 #asideTop{
     height: 40vh;
-    wight:100vw;
     border: 0px solid white;
-    background-color:;
 }
 #asideBottom{
     height: 60vh;
-    wight:100vw;
     font-size: 2vw;
     border: 0px solid white;
-    background-color: ;
     color: white;
     font-weight: bold;
 }
@@ -84,7 +79,6 @@ li{float: right;
     width:22vw;
     border:1px solid rgb(255, 255, 255);
     color: white;
-    margin-top: ;
 }
 @media screen and (max-width: 800px) {
     .input, .click{width: 22vw; height: 22vw;font-size: 13vw;}
