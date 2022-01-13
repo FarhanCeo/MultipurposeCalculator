@@ -1,33 +1,56 @@
+*{
+    margin: 0;
+}
 .main_block{
-    width: 100%;
-    border: 0px solid red;
+    width: 97%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 .upper_block{
-    width: 95vw;
-    border: 0px solid blue;
-    height: 90vh;
+    width: 100vw;
+    border: 1px solid blue;
+    height: 100vh;
     display: flex;
+    background-color: ;
 }
 .nav_options{
-    width: 18%;
+    width: 22%;
     height: 100%;
     font-size: 3vw;
-    border: 0px solid rgb(255, 0, 242);
-}/*
+    border: 1px solid rgb(255, 0, 242);
+    background-color: rebeccapurple;
+    
+}
+#asideTop{
+    height: 40vh;
+    wight:100vw;
+    border: 0px solid white;
+    background-color:;
+}
+#asideBottom{
+    height: 60vh;
+    wight:100vw;
+    font-size: 2vw;
+    border: 0px solid white;
+    background-color: ;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*
 #one1, #two2, #three3{
     border:2px solid rgb(128, 0, 122);
     border-radius: 25%;
 }*/
 a{
    /*margin-top: 10px;*/
-    color: indigo;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 li{float: right;
     list-style-type: none;
-    border: 0px solid black;
+    border: 1px solid white;
     margin-top: 15px;
     font-weight: bold;
 }
@@ -36,6 +59,7 @@ li{float: right;
     width: 78%;
     height: 100%;
     border: 0px solid rgb(229, 255, 0);
+    background-color: rgb(240, 221, 240);
 }
 #iframe_screen{
     width: 100%;
@@ -54,11 +78,13 @@ li{float: right;
     border: none;
     background-color:white; 
     font-family: cursive;
-    
+    background-color: rgb(240, 221, 240);
 }
 .lower_block{
-    width:95vw;
-    border:2px solid rgb(0, 34, 128);
+    width:22vw;
+    border:1px solid rgb(255, 255, 255);
+    color: white;
+    margin-top: ;
 }
 @media screen and (max-width: 800px) {
     .input, .click{width: 22vw; height: 22vw;font-size: 13vw;}
@@ -83,6 +109,7 @@ li{float: right;
     border: none;
     background-color:white; 
     font-family: cursive;
+    background-color: rgb(240, 221, 240);
 }
 
 #hex, #oct, #binary{
