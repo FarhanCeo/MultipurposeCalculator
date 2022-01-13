@@ -15,16 +15,16 @@
     width: 22%;
     height: 100%;
     font-size: 3vw;
-    border: 0px solid rgb(255, 0, 242);
+    border: 1px solid rgb(255, 0, 242);
     background-color: rebeccapurple;
     
 }
 #asideTop{
-    height: 40vh;
+    height: 30vh;
     border: 0px solid white;
 }
 #asideBottom{
-    height: 60vh;
+    height: 70vh;
     font-size: 2vw;
     border: 0px solid white;
     color: white;
