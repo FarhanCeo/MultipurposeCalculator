@@ -15,7 +15,7 @@
     width: 22%;
     height: 100%;
     font-size: 3vw;
-    border: 1px solid rgb(255, 0, 242);
+    border: 0px solid rgb(255, 0, 242);
     background-color: rebeccapurple;
     
 }
@@ -109,4 +109,16 @@ li{float: right;
 #hex, #oct, #binary{
     font-size: 6vw;
 }
+#aBottom{
+    font-size: 2vw;
+}
 
+@media screen and (max-width: 400px) {
+    #aBottom{font-size: 4vw;}
+}
+#aTop{
+    font-size: 2vw;color: gold;
+}
+@media screen and (max-width: 400px) {
+    #aTop{font-size: 4vw;}
+}
